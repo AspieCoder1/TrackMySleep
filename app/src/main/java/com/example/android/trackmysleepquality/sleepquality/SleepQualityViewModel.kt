@@ -48,4 +48,5 @@ class SleepQualityViewModel(private val sleepNightKey: Long = 0L, val database: 
         super.onCleared()
         viewModelJob.cancel()
     }
+
 }
